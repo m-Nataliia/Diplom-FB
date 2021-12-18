@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'TT Norms Thin';
+    src: url('../TTNorms-Thin.eot');
+    src: url('TTNorms-Thin.eot?#iefix') format('embedded-opentype'),
+        url('TTNorms-Thin.woff2') format('woff2'),
+        url('TTNorms-Thin.woff') format('woff'),
+        url('TTNorms-Thin.ttf') format('truetype'),
+        url('TTNorms-Thin.svg#TTNorms-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Bold';
+    src: url('TTNorms-Bold.eot');
+    src: url('TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TTNorms-Bold.woff2') format('woff2'),
+        url('TTNorms-Bold.woff') format('woff'),
+        url('TTNorms-Bold.ttf') format('truetype'),
+        url('TTNorms-Bold.svg#TTNorms-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms Medium';
+    src: url('TTNorms-Medium.eot');
+    src: url('TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TTNorms-Medium.woff2') format('woff2'),
+        url('TTNorms-Medium.woff') format('woff'),
+        url('TTNorms-Medium.ttf') format('truetype'),
+        url('TTNorms-Medium.svg#TTNorms-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

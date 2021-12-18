@@ -1,0 +1,14 @@
+.navbar-toggler-img {
+  opacity: 0;
+}
+
+.navbar-toggler {
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-toggler-img {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=headers_bottom.css.map */

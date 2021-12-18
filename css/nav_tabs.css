@@ -1,0 +1,166 @@
+.nav-box {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.nav-link {
+  text-align: end;
+}
+
+.nav_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.span_nav-tabs_1 {
+  display: none;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f0145a), to(#ef8080));
+  background-image: linear-gradient(to right, #f0145a, #ef8080);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: 0;
+  border-right: 4px solid #E6E6F0;
+  font-size: 42px;
+  line-height: 50px;
+  color: #B3B3BA;
+  padding-right: 40px;
+}
+
+.nav-pills .nav-link.active {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: -webkit-gradient(linear, right top, left top, from(#f0145a), to(#ef8080));
+  background-image: linear-gradient(to left, #f0145a, #ef8080);
+  background-color: rgba(0, 0, 0, 0);
+  border-right: 4px solid #F0145A;
+}
+
+.tab-content {
+  color: white;
+  padding-left: 40px;
+}
+
+.tab-content p {
+  padding-top: 20px;
+  font-family: 'TT Norms Thin';
+  font-size: 21px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 1150px) {
+  .nav-pills .nav-link {
+    font-size: 34px;
+    line-height: 48px;
+    color: #B3B3BA;
+    padding-right: 40px;
+  }
+  .tab-content {
+    color: white;
+    padding-left: 20px;
+  }
+  .tab-content p {
+    padding-top: 20px;
+    font-family: 'TT Norms Thin';
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .nav-pills .nav-link {
+    font-size: 30px;
+    line-height: 48px;
+    color: #B3B3BA;
+    padding-right: 40px;
+  }
+  .tab-content {
+    width: 60%;
+    color: white;
+    padding-left: 20px;
+  }
+  .tab-content p {
+    padding-top: 20px;
+    font-family: 'TT Norms Thin';
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .span_nav-tabs_1 {
+    display: block;
+  }
+  .nav-box {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .nav-link {
+    text-align: end;
+  }
+  .nav {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .span_nav-tabs {
+    display: none;
+  }
+  .nav-pills .nav-link {
+    width: 16px;
+    height: 16px;
+    background: #2f4983;
+    border-radius: 50%;
+    border-right: none;
+    padding: 5px;
+    margin: 7px;
+  }
+  .nav-pills .nav-link.active {
+    width: 16px;
+    height: 16px;
+    background: #24A3FF;
+    border-radius: 50%;
+    border-right: none;
+  }
+  .tab-content {
+    color: white;
+    padding-left: 40px;
+    width: 100%;
+  }
+  .tab-content p {
+    padding-top: 20px;
+    font-family: 'TT Norms Thin';
+    font-size: 21px;
+    line-height: 30px;
+  }
+}
+/*# sourceMappingURL=nav_tabs.css.map */

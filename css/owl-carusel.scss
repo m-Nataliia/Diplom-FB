@@ -1,0 +1,279 @@
+.owl-carousel{
+  width: 100%;
+  margin: 40px auto;
+.owl-stage-outer{
+  background: #F5F5FA;
+  height: 501px;
+  border-radius: 12px;
+}
+.owl-item {
+  display: flex;
+}
+.img{
+  display: none;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+}
+.owl-stage-img{
+  display: none;
+}
+.owl-stage__image{
+  width: 413px;
+  height: 500px;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+.owl-stage__text{
+  width: 65%;
+  padding: 40px 40px 173px 40px;
+  .owl-stage__text_a{
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24A3FF; 
+    text-decoration: none; 
+    display:inline-block;
+    &::after{
+     content: url(../assets/img/arrow-right-blue.png);
+     position: absolute;
+     margin-top: 1px;
+     width: 4.5px;
+     height: 9px;
+     margin-left: 8.5px;
+   
+    }
+  }
+  h2{
+    font-size: 42px;
+    line-height: 50px;  
+    color: transparent;    
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, rgba(240, 20, 90, 1), rgba(239, 128, 128, 1));
+    font-family: 'TT Norms Bold';
+    
+  }
+  .owl-stage__text_a_1{
+    font-size: 18px;
+    line-height: 21px;
+    color: #B3B3BA;
+    text-decoration: none;
+
+  }
+
+  .owl-stage__text_span{
+    font-size: 16px;
+    line-height: 22px;
+    color: #B3B3BA;
+    font-family: 'TT Norms Thin';
+
+  }
+}
+}
+.owl-nav{
+  display: none;
+}
+.owl-dots{
+  margin-top: 20px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #24A3FF;
+}
+.owl-theme .owl-dots .owl-dot span {
+  background: rgba(211, 237, 255, 1)
+
+}
+
+  @media screen and (max-width: 1150px){
+
+    .owl-carousel{
+     
+    
+    .owl-stage__text{
+      
+      .owl-stage__text_a{
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #24A3FF; 
+        text-decoration: none; 
+        display:inline-block;
+        &::after{
+         content: url(../assets/img/arrow-right-blue.png);
+         position: absolute;
+         margin-top: 1px;
+         width: 4.5px;
+         height: 9px;
+         margin-left: 8.5px;
+       
+        }
+      }
+      h2{
+        font-size: 34px;
+        line-height: 44px;  
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-image: linear-gradient(to right, rgba(240, 20, 90, 1), rgba(239, 128, 128, 1));
+        font-family: 'TT Norms Bold';
+      }
+      .owl-stage__text_a_1{
+        font-size: 18px;
+        line-height: 21px;
+        color: #B3B3BA;
+        text-decoration: none;
+    
+      }
+      .owl-stage__text_span{
+        font-size: 16px;
+        line-height: 22px;
+        color: #B3B3BA;
+        font-family: 'TT Norms Thin';
+    
+      }
+    }
+    }
+
+
+    .owl-nav{
+      display: none;
+    }
+    .owl-dots{
+      margin-top: 20px;
+    }
+    
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: #24A3FF;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+      background: rgba(211, 237, 255, 1)
+    
+    }
+  }
+    @media screen and (max-width: 910px){
+      .owl-carousel{
+        width: 100%;
+        margin: 40px auto;
+      .owl-stage-outer{
+        background: #F5F5FA;
+        height: 401px;
+        border-radius: 12px;
+      }
+      
+      .owl-stage__image{
+        width: 413px;
+        height: 401px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .owl-stage__text{
+        padding: 10px 10px 10px 10px;
+        h2{
+          font-size: 24px;
+          line-height: 26px;     
+         
+          
+        }
+        
+      }
+      }
+    }
+    @media screen and (max-width: 600px){
+    .owl-item{
+      flex-direction: column-reverse;
+    }
+      .owl-carousel{
+      width: 100%;
+      margin: 40px auto 0;
+    .owl-stage-outer{
+      background: #F5F5FA;
+      height: 434px;
+      border-radius: 12px;
+
+    }
+    .owl-stage__image{
+      display: none;
+    }
+    .img{
+      width: 72px;
+      display: flex;
+      img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+      }
+    }
+    .text{
+      display: flex;
+      flex-direction: column;
+    }
+   
+    .owl-stage__text{
+      width: 100%;
+      padding: 20px 0 0 0;
+      .owl-stage__text_a{
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #24A3FF; 
+        text-decoration: none; 
+        display:inline-block;
+        &::after{
+         content: url(../assets/img/arrow-right-blue.png);
+         position: absolute;
+         margin-top: 1px;
+         width: 4.5px;
+         height: 9px;
+         margin-left: 8.5px;
+       
+        }
+      }
+      h2{
+        font-size: 32px;
+        line-height: 38px; 
+      
+        
+      }
+      .owl-stage__text_a_1{
+        font-size: 18px;
+        line-height: 21px;
+        color: #B3B3BA;
+        text-decoration: none;
+    
+      }
+    
+      .owl-stage__text_span{
+        font-size: 16px;
+        line-height: 22px;
+        color: #B3B3BA;
+        font-family: 'TT Norms Thin';
+    
+      }
+    }
+    }
+    .owl-nav{
+      display: none;
+    }
+    .owl-dots{
+      margin-top: 20px;
+    }
+    .owl-stage__image_1{
+      display: flex;
+    }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: #24A3FF;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+      background: rgba(211, 237, 255, 1)
+    
+    }
+    
+  }
